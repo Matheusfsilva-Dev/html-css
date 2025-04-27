@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
         
@@ -50,21 +51,29 @@
             box-shadow: 1px 1px 10px white;
         }
 
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: black;
+            padding-top: 6px;
+            padding-bottom: 6px;
+        }
+
+        th.cabecalho1 {
+            text-align: center;
+            padding-right: 8px;
+        }
+
+        th.cabecalho2 {
+            text-align: center;
+            padding-left: 0px;
+        }
+
         td {
             border:  1px solid white;
             padding: 8px 0px 8px 8px;
             font-weight: bolder;
             
-        }
-        
-        td.cabecalho1 {
-            text-align: center;
-            padding-right: 8px;
-        }
-
-        td.cabecalho2 {
-            text-align: center;
-            padding-left: 0px;
         }
         
         td.pontos {
@@ -104,153 +113,157 @@
         <h1>Tabela de pontos F1 2025</h1>
     </header>
     <table>
-        <tr class="cabecalho">
-            <td class="cabecalho1">pos.</td>
-            <td class="cabecalho1">piloto</td>
-            <td class="cabecalho2">pontos</td>
-            <td class="cabecalho2">vitorias</td>
-            <td class="cabecalho2">podios</td>
-        </tr>
-        <tr class="primeiro">
-            <td>1<sup>o</sup></td>
-            <td><img src="imagens/australia.png" alt="bandeira-australia">O. Piastre</td>
-            <td class="pontos">99</td>
-            <td class="pontos">3</td>
-            <td class="pontos">4</td>
-        </tr>
-        <tr class="segundo">
-            <td>2<sup>o</sup></td>
-            <td><img src="imagens/inglaterra.png" alt="bandeira-inglaterra">L. Noris</td>
-            <td class="pontos">89</td>
-            <td class="pontos">1</td>
-            <td class="pontos">4</td>
-        </tr>
-        <tr class="terceiro">
-            <td>3<sup>o</sup></td>
-            <td><img src="imagens/holanda.png" alt="bandeira-holanda">M. Verstappen</td>
-            <td class="pontos">87</td>
-            <td class="pontos">1</td>
-            <td class="pontos">3</td>
-        </tr>
-        <tr>
-            <td>4<sup>o</sup></td>
-            <td><img src="imagens/inglaterra.png" alt="bandeira-inglaterra">G. Russell</td>
-            <td class="pontos">73</td>
-            <td class="pontos">0</td>
-            <td class="pontos">3</td>
-        </tr>
-        <tr>
-            <td>5<sup>o</sup></td>
-            <td><img src="imagens/monaco.png" alt="bandeira-monaco">C. Leclerc</td>
-            <td class="pontos">47</td>
-            <td class="pontos">0</td>
-            <td class="pontos">1</td>
-        </tr>
-        <tr>
-            <td>6<sup>o</sup></td>
-            <td><img src="imagens/italia.png" alt="bandeira-italia">K. Antonelli</td>
-            <td class="pontos">38</td>
-            <td class="pontos">0</td>
-            <td class="pontos">0</td>
-        </tr>
-        <tr>
-            <td>7<sup>o</sup></td>
-            <td><img src="imagens/inglaterra.png" alt="bandeira-inglaterra">L. Hamilton</td>
-            <td class="pontos">31</td>
-            <td class="pontos">0</td>
-            <td class="pontos">0</td>
-        </tr>
-        <tr>
-            <td>8<sup>o</sup></td>
-            <td><img src="imagens/tailandia.png" alt="bandeira-tailandia">A. Albon</td>
-            <td class="pontos">20</td>
-            <td class="pontos">0</td>
-            <td class="pontos">0</td>
-        </tr>
-        <tr>
-            <td>9<sup>o</sup></td>
-            <td><img src="imagens/franca.png" alt="bandeira-franca">E. Ocon</td>
-            <td class="pontos">14</td>
-            <td class="pontos">0</td>
-            <td class="pontos">0</td>
-        </tr>
-        <tr>
-            <td>10<sup>o</sup></td>
-            <td><img src="imagens/canada.png" alt="bandeira-canada">L. Stroll</td>
-            <td class="pontos">10</td>
-            <td class="pontos">0</td>
-            <td class="pontos">0</td>
-        </tr>
-        <tr>
-            <td>11<sup>o</sup></td>
-            <td><img src="imagens/franca.png" alt="bandeira-franca">P. Gasly</td>
-            <td class="pontos">6</td>
-            <td class="pontos">0</td>
-            <td class="pontos">0</td>
-        </tr>
-        <tr>
-            <td>12<sup>o</sup></td>
-            <td><img src="imagens/alemanha.png" alt="bandeira-alemanha"> N. Hulkengerg</td>
-            <td class="pontos">6</td>
-            <td class="pontos">0</td>
-            <td class="pontos">0</td>
-        </tr>
-        <tr>
-            <td>13<sup>o</sup></td>
-            <td><img src="imagens/inglaterra.png" alt="bandeira-inglaterra"> O. Bearman</td>
-            <td class="pontos">6</td>
-            <td class="pontos">0</td>
-            <td class="pontos">0</td>
-        </tr>
-        <tr>
-            <td>14<sup>o</sup></td>
-            <td><img src="imagens/franca.png" alt="bandeira-franca">I. Hadjar</td>
-            <td class="pontos">5</td>
-            <td class="pontos">0</td>
-            <td class="pontos">0</td>
-        </tr>
-        <tr>
-            <td>15<sup>o</sup></td>
-            <td><img src="imagens/espanha.png" alt="bandeira-espanha">C. Sainz Jr.</td>
-            <td class="pontos">5</td>
-            <td class="pontos">0</td>
-            <td class="pontos">0</td>
-        </tr>
-        <tr>
-            <td>16<sup>o</sup></td>
-            <td><img src="imagens/japao.png" alt="bandeira-japao">Y. Tsunoda</td>
-            <td class="pontos">5</td>
-            <td class="pontos">0</td>
-            <td class="pontos">0</td>
-        </tr>
-        <tr>
-            <td>17<sup>o</sup></td>
-            <td><img src="imagens/espanha.png" alt="bandeira-espanha">F. Alonso</td>
-            <td class="pontos">0</td>
-            <td class="pontos">0</td>
-            <td class="pontos">0</td>
-        </tr>
-        <tr>
-            <td>18<sup>o</sup></td>
-            <td><img src="imagens/australia.png" alt="bandeira-australia">L. Lawson</td>
-            <td class="pontos">0</td>
-            <td class="pontos">0</td>
-            <td class="pontos">0</td>
-        </tr>
-        <tr>
-            <td>19<sup>o</sup></td>
-            <td><img src="imagens/australia.png" alt="bandeira-australia">J. Doohan</td>
-            <td class="pontos">0</td>
-            <td class="pontos">0</td>
-            <td class="pontos">0</td>
-        </tr>
-        <tr>
-            <td>20<sup>o</sup></td>
-            <td><img src="imagens/brasil.png" alt="bandeira-brasil">G. Bortoleto</td>
-            <td class="pontos">0</td>
-            <td class="pontos">0</td>
-            <td class="pontos">0</td>
-        </tr>
+        <thead>
+            <tr class="cabecalho">
+                <th class="cabecalho1">pos.</th>
+                <th class="cabecalho1">piloto</th>
+                <th class="cabecalho2">pontos</th>
+                <th class="cabecalho2">vitorias</th>
+                <th class="cabecalho2">pódios</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="primeiro">
+                <td>1<sup>o</sup></td>
+                <td><img src="imagens/australia.png" alt="bandeira-australia">O. Piastre</td>
+                <td class="pontos">99</td>
+                <td class="pontos">3</td>
+                <td class="pontos">4</td>
+            </tr>
+            <tr class="segundo">
+                <td>2<sup>o</sup></td>
+                <td><img src="imagens/inglaterra.png" alt="bandeira-inglaterra">L. Noris</td>
+                <td class="pontos">89</td>
+                <td class="pontos">1</td>
+                <td class="pontos">4</td>
+            </tr>
+            <tr class="terceiro">
+                <td>3<sup>o</sup></td>
+                <td><img src="imagens/holanda.png" alt="bandeira-holanda">M. Verstappen</td>
+                <td class="pontos">87</td>
+                <td class="pontos">1</td>
+                <td class="pontos">3</td>
+            </tr>
+            <tr>
+                <td>4<sup>o</sup></td>
+                <td><img src="imagens/inglaterra.png" alt="bandeira-inglaterra">G. Russell</td>
+                <td class="pontos">73</td>
+                <td class="pontos">0</td>
+                <td class="pontos">3</td>
+            </tr>
+            <tr>
+                <td>5<sup>o</sup></td>
+                <td><img src="imagens/monaco.png" alt="bandeira-monaco">C. Leclerc</td>
+                <td class="pontos">47</td>
+                <td class="pontos">0</td>
+                <td class="pontos">1</td>
+            </tr>
+            <tr>
+                <td>6<sup>o</sup></td>
+                <td><img src="imagens/italia.png" alt="bandeira-italia">K. Antonelli</td>
+                <td class="pontos">38</td>
+                <td class="pontos">0</td>
+                <td class="pontos">0</td>
+            </tr>
+            <tr>
+                <td>7<sup>o</sup></td>
+                <td><img src="imagens/inglaterra.png" alt="bandeira-inglaterra">L. Hamilton</td>
+                <td class="pontos">31</td>
+                <td class="pontos">0</td>
+                <td class="pontos">0</td>
+            </tr>
+            <tr>
+                <td>8<sup>o</sup></td>
+                <td><img src="imagens/tailandia.png" alt="bandeira-tailandia">A. Albon</td>
+                <td class="pontos">20</td>
+                <td class="pontos">0</td>
+                <td class="pontos">0</td>
+            </tr>
+            <tr>
+                <td>9<sup>o</sup></td>
+                <td><img src="imagens/franca.png" alt="bandeira-franca">E. Ocon</td>
+                <td class="pontos">14</td>
+                <td class="pontos">0</td>
+                <td class="pontos">0</td>
+            </tr>
+            <tr>
+                <td>10<sup>o</sup></td>
+                <td><img src="imagens/canada.png" alt="bandeira-canada">L. Stroll</td>
+                <td class="pontos">10</td>
+                <td class="pontos">0</td>
+                <td class="pontos">0</td>
+            </tr>
+            <tr>
+                <td>11<sup>o</sup></td>
+                <td><img src="imagens/franca.png" alt="bandeira-franca">P. Gasly</td>
+                <td class="pontos">6</td>
+                <td class="pontos">0</td>
+                <td class="pontos">0</td>
+            </tr>
+            <tr>
+                <td>12<sup>o</sup></td>
+                <td><img src="imagens/alemanha.png" alt="bandeira-alemanha"> N. Hulkengerg</td>
+                <td class="pontos">6</td>
+                <td class="pontos">0</td>
+                <td class="pontos">0</td>
+            </tr>
+            <tr>
+                <td>13<sup>o</sup></td>
+                <td><img src="imagens/inglaterra.png" alt="bandeira-inglaterra"> O. Bearman</td>
+                <td class="pontos">6</td>
+                <td class="pontos">0</td>
+                <td class="pontos">0</td>
+            </tr>
+            <tr>
+                <td>14<sup>o</sup></td>
+                <td><img src="imagens/franca.png" alt="bandeira-franca">I. Hadjar</td>
+                <td class="pontos">5</td>
+                <td class="pontos">0</td>
+                <td class="pontos">0</td>
+            </tr>
+            <tr>
+                <td>15<sup>o</sup></td>
+                <td><img src="imagens/espanha.png" alt="bandeira-espanha">C. Sainz Jr.</td>
+                <td class="pontos">5</td>
+                <td class="pontos">0</td>
+                <td class="pontos">0</td>
+            </tr>
+            <tr>
+                <td>16<sup>o</sup></td>
+                <td><img src="imagens/japao.png" alt="bandeira-japao">Y. Tsunoda</td>
+                <td class="pontos">5</td>
+                <td class="pontos">0</td>
+                <td class="pontos">0</td>
+            </tr>
+            <tr>
+                <td>17<sup>o</sup></td>
+                <td><img src="imagens/espanha.png" alt="bandeira-espanha">F. Alonso</td>
+                <td class="pontos">0</td>
+                <td class="pontos">0</td>
+                <td class="pontos">0</td>
+            </tr>
+            <tr>
+                <td>18<sup>o</sup></td>
+                <td><img src="imagens/australia.png" alt="bandeira-australia">L. Lawson</td>
+                <td class="pontos">0</td>
+                <td class="pontos">0</td>
+                <td class="pontos">0</td>
+            </tr>
+            <tr>
+                <td>19<sup>o</sup></td>
+                <td><img src="imagens/australia.png" alt="bandeira-australia">J. Doohan</td>
+                <td class="pontos">0</td>
+                <td class="pontos">0</td>
+                <td class="pontos">0</td>
+            </tr>
+            <tr>
+                <td>20<sup>o</sup></td>
+                <td><img src="imagens/brasil.png" alt="bandeira-brasil">G. Bortoleto</td>
+                <td class="pontos">0</td>
+                <td class="pontos">0</td>
+                <td class="pontos">0</td>
+            </tr>
+        </tbody>
     </table>
 </body>
 </html>
